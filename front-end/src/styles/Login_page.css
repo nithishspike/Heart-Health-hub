@@ -1,0 +1,93 @@
+.login-body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(204, 239, 253);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-header {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.login-logo {
+    font-size: 25px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.login-logo:hover {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.login-navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.login-navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 1s;
+}
+
+.login-navbar a:hover {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.login-container {
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: large;
+}
+
+.login-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: xx-large;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.login-button a {
+    color: white;
+    text-decoration: none;
+}
